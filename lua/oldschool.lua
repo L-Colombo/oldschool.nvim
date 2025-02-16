@@ -49,7 +49,7 @@ oldschool.groups = {
     Identifier = { fg = p.dark_green },
     IncSearch = { fg = p.white, bg = p.medium_green },
     LineNr = { fg = p.bright_green },
-    MatchParen = { fg = p.black, bg = p.yellow },
+    MatchParen = { fg = p.black, bg = p.teal },
     ModeMsg = { fg = p.white, },
     MoreMsg = { fg = p.white, },
     NonText = { fg = p.white, },
