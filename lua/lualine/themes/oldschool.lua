@@ -23,7 +23,7 @@ return {
     insert = {
         a = { bg = p.black, fg = p.bright_green, gui = "bold" },
         b = { bg = p.black, fg = p.white },
-        c = { bg = p.black, fg = p.white }
+        c = { bg = p.dark_grey, fg = p.white }
     },
     visual = {
         a = { bg = p.black, fg = p.pink, gui = "bold" },
@@ -33,7 +33,7 @@ return {
     replace = {
         a = { bg = p.black, fg = p.red, gui = "bold" },
         b = { bg = p.black, fg = p.white },
-        c = { bg = p.black, fg = p.white }
+        c = { bg = p.dark_grey, fg = p.white }
     },
     command = {
         a = { bg = p.black, fg = p.yellow, gui = "bold" },
