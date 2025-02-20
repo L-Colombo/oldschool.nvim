@@ -21,8 +21,11 @@ To use Atlantic-Dark with [lualine.nvim](https://github.com/nvim-lualine/lualine
 
 ## Gallery
 
+### Haskell
 ![Haskell](./assets/haskell.png "Haskell")
 
+### Rust
 ![Rust](./assets/rust.png "Rust")
 
+### Lua
 ![Lua](./assets/lua.png "Lua")
