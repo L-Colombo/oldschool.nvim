@@ -118,9 +118,13 @@ oldschool.groups = {
 
     -- Telescope
     TelescopeBorder                       = { fg = p.bright_green },
+    TelescopePreviewLine                  = { bg = p.dark_grey },
+    TelescopePreviewMatch                 = { bg = p.dark_grey },
     TelescopePromptBorder                 = { fg = p.pink },
     TelescopePromptTitle                  = { fg = p.bright_green },
     TelescopeResultsComment               = { fg = p.red },
+    TelescopeSelection                    = { bg = p.dark_grey },
+    TelescopeTitle                        = { fg = p.pink },
 
     -- LSP & TREESITTER
     ["@lsp.typemod.function.declaration"] = { fg = p.white },
