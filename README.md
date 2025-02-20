@@ -17,7 +17,7 @@ You can install using `lazy.nvim` by simply adding to your configuration file(s)
 
 ## Lualine
 
-To use Atlantic-Dark with [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) just set the theme option either to `auto` or `oldschool`.
+To use `Oldschool.nvim` with [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) just set the theme option either to `auto` or `oldschool`.
 
 ## Gallery
 
