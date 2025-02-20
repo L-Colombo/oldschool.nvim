@@ -21,6 +21,8 @@ To use Atlantic-Dark with [lualine.nvim](https://github.com/nvim-lualine/lualine
 
 ## Gallery
 
-![Rust](./assets/rust.png "Rust ")
+![Haskell](./assets/haskell.png "Haskell")
 
-![JavaScript React](./assets/react.png "JavaScript React")
+![Rust](./assets/rust.png "Rust")
+
+![Lua](./assets/lua.png "Lua")
