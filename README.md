@@ -10,7 +10,7 @@ You can install using `lazy.nvim` by simply adding to your configuration file(s)
 
 ```lua
 {
-    "L-Colombo/atlantic-dark.nvim"
+    "L-Colombo/oldschool.nvim"
 }
 ```
 
