@@ -1,1 +1,1 @@
-require("oldschool").setup()
+-- require("oldschool").setup()
