@@ -33,7 +33,7 @@ You can install using `lazy.nvim` by simply adding to your configuration file(s)
     "L-Colombo/oldschool.nvim",
     config = true,
     -- to ovverride palette colors:
-    -- opts = { <color>: "<hex value>"}
+    -- opts = { <color> = "<hex value>"}
 }
 ```
 
