@@ -152,6 +152,12 @@ oldschool.color_groups = function(p)
         ["@variable"]                         = { fg = p.opaque_white },
         ["@variable.builtin"]                 = { fg = p.white, italic = true },
 
+        -- Org-mode
+        ["@org.headline.level1.org"]          = { fg = p.pink, bold = true },
+        ["@org.headline.level2.org"]          = { fg = p.blue, bold = true },
+        ["@org.headline.level3.org"]          = { fg = p.bright_green, bold = true },
+        ["@org.tag.org"]                      = { fg = p.yellow, bold = true },
+
         -- LaTeX
         ["@function.latex"]                   = { fg = p.bright_green },
         ["@variable.parameter.latex"]         = { fg = p.blue },
