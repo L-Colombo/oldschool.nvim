@@ -165,18 +165,20 @@ oldschool.color_groups = function(p)
     }
 end
 
-
 -- reset colors and load highlights
-oldschool.setup = function(custom)
-    local colors = vim.tbl_deep_extend("force", palette, custom or {})
-
+oldschool.load = function()
     vim.cmd.hi("clear")
     vim.g.colors_name = "oldschool"
     vim.o.termguicolors = true
 
-    for group, opts in pairs(oldschool.color_groups(colors)) do
+    for group, opts in pairs(oldschool.color_groups(oldschool.colors)) do
         vim.api.nvim_set_hl(0, group, opts)
     end
+end
+
+-- load the user's options
+oldschool.setup = function(opts)
+    oldschool.colors = vim.tbl_deep_extend("force", palette, opts or {})
 end
 
 return oldschool
