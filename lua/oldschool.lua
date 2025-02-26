@@ -156,6 +156,8 @@ oldschool.color_groups = function(p)
         ["@org.headline.level1.org"]          = { fg = p.pink, bold = true },
         ["@org.headline.level2.org"]          = { fg = p.blue, bold = true },
         ["@org.headline.level3.org"]          = { fg = p.bright_green, bold = true },
+        ["@org.priority.highest.org"]         = { fg = p.bright_green, bold = true },
+        ["@org.priority.default.org"]         = { fg = p.yellow, bold = true },
         ["@org.tag.org"]                      = { fg = p.teal, bold = true },
 
         -- LaTeX
