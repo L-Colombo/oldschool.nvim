@@ -105,6 +105,8 @@ oldschool.color_groups = function(p)
 
         -- Lazy
         LazyNormal                            = { bg = p.black },
+        LazyReasonPlugin                      = { fg = p.pink },
+        LazySpecial                           = { fg = p.blue },
 
         -- Mason
         MasonNormal                           = { bg = p.dark_grey },
