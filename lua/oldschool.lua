@@ -171,9 +171,12 @@ end
 
 -- reset colors and load highlights
 oldschool.load = function()
-    vim.cmd.hi("clear")
+    if vim.g.colors_name then
+        vim.cmd("hi clear")
+        vim.cmd("syntax reset")
+    end
+
     vim.g.colors_name = "oldschool"
-    vim.o.termguicolors = true
 
     for group, opts in pairs(oldschool.color_groups(oldschool.colors)) do
         vim.api.nvim_set_hl(0, group, opts)
