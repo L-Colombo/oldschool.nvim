@@ -166,6 +166,8 @@ oldschool.color_groups = function(p)
         ["@function.latex"]                   = { fg = p.bright_green },
         ["@variable.parameter.latex"]         = { fg = p.blue },
 
+        -- Haskell
+        ["@constructor.haskell"]              = { fg = p.blue },
     }
 end
 
