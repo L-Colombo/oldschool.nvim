@@ -55,7 +55,7 @@ oldschool.color_groups = function(p)
         MoreMsg                               = { fg = p.white, },
         NonText                               = { fg = p.white, },
         Normal                                = { fg = p.opaque_white, bg = p.black },
-        NormalFloat                           = { bg = p.dark_grey },
+        NormalFloat                           = { bg = p.black },
         Operator                              = { fg = p.pink },
         Pmenu                                 = { fg = p.light_grey, bg = p.black },
         PmenuSbar                             = { fg = p.pink },
