@@ -164,7 +164,9 @@ oldschool.color_groups = function(p)
         ["@org.tag.org"]                      = { fg = p.teal, bold = true },
 
         -- LaTeX
-        ["@function.latex"]                   = { fg = p.bright_green },
+        ["@function.latex"]                   = { fg = p.bright_green, bold = true },
+        ["@module.latex"]                     = { fg = p.pink },
+        ["@punctuation.bracket.latex"]        = { fg = p.blue },
         ["@variable.parameter.latex"]         = { fg = p.blue },
 
         -- Haskell
