@@ -165,7 +165,7 @@ oldschool.color_groups = function(p)
 
         -- LaTeX
         ["@function.latex"]                   = { fg = p.bright_green, bold = true },
-        ["@markup.italics.latex"]             = { fg = p.pink, italic = true },
+        ["@markup.italic.latex"]              = { fg = p.pink, italic = true },
         ["@module.latex"]                     = { fg = p.pink },
         ["@punctuation.bracket.latex"]        = { fg = p.blue },
         ["@variable.parameter.latex"]         = { fg = p.blue },
