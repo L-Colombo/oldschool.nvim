@@ -172,6 +172,9 @@ oldschool.color_groups = function(p)
 
         -- Haskell
         ["@constructor.haskell"]              = { fg = p.blue },
+
+        -- Elixir
+        ["@string.special.symbol.elixir"]     = { fg = p.blue },
     }
 end
 
