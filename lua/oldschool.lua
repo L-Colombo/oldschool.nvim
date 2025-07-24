@@ -177,7 +177,7 @@ oldschool.color_groups = function(p)
         ["@string.special.symbol.elixir"]     = { fg = p.blue },
 
         -- Rust
-        ["@lsp.type.formatSpecifier.rust"]    = { fg = p.blue, bold = true }
+        ["@lsp.type.formatSpecifier.rust"]    = { fg = p.blue, bold = true },
         ["@lsp.type.escapeSequence.rust"]     = { fg = p.yellow, bold = true }
     }
 end
