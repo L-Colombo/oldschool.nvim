@@ -99,6 +99,7 @@ oldschool.color_groups = function(p)
         GitSignsAdd                           = { fg = p.dark_green, bold = true },
         GitSignsChange                        = { fg = p.yellow, bold = true },
         GitSignsDelete                        = { fg = p.red, bold = true },
+        GitSignsCurrentLineBlame              = { fg = p.light_grey, bold = false },
 
         -- IndentBlankline
         IblIndent                             = { fg = p.dark_grey },
