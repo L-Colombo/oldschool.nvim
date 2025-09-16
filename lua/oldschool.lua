@@ -177,6 +177,10 @@ oldschool.color_groups = function(p)
         -- Elixir
         ["@string.special.symbol.elixir"]     = { fg = p.blue },
 
+        -- Python
+        ["@constant.builtin.python"]          = { fg = p.blue },
+        ["@function.builtin.python"]          = { fg = p.blue },
+
         -- Rust
         ["@lsp.type.formatSpecifier.rust"]    = { fg = p.blue, bold = true },
         ["@lsp.type.escapeSequence.rust"]     = { fg = p.yellow, bold = true }
