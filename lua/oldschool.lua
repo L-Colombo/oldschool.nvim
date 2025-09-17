@@ -179,6 +179,7 @@ oldschool.color_groups = function(p)
 
         -- Python
         ["@constant.builtin.python"]          = { fg = p.blue },
+        ["@constructor.python"]               = { fg = p.blue },
         ["@function.builtin.python"]          = { fg = p.blue },
 
         -- Rust
