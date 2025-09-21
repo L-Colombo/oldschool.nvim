@@ -171,11 +171,15 @@ oldschool.color_groups = function(p)
         ["@punctuation.bracket.latex"]        = { fg = p.blue },
         ["@variable.parameter.latex"]         = { fg = p.blue },
 
+        -- Elixir
+        ["@string.special.symbol.elixir"]     = { fg = p.blue },
+
         -- Haskell
         ["@constructor.haskell"]              = { fg = p.blue },
 
-        -- Elixir
-        ["@string.special.symbol.elixir"]     = { fg = p.blue },
+        -- Java
+        ["@lsp.type.modifier.java"]           = { fg = p.red, bold = true },
+        ["@lsp.mod.constructor.java"]         = { fg = p.blue },
 
         -- Python
         ["@constant.builtin.python"]          = { fg = p.blue },
