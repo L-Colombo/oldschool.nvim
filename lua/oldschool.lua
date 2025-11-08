@@ -59,7 +59,7 @@ oldschool.color_groups = function(p)
         Operator                              = { fg = p.pink },
         Pmenu                                 = { fg = p.light_grey, bg = p.black },
         PmenuSbar                             = { fg = p.pink },
-        PmenuSel                              = { fg = p.pink, bg = p.black, bold = true },
+        PmenuSel                              = { fg = p.black, bg = p.pink, bold = true },
         PmenuThumb                            = { fg = p.dark_grey, bg = p.pink },
         PreProc                               = { fg = p.dark_green, },
         Question                              = { fg = p.white, },
