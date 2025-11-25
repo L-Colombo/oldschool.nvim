@@ -2,19 +2,26 @@ local oldschool = {}
 
 
 local palette = {
-    black        = "#000000",
-    dark_grey    = "#252525",
-    light_grey   = "#666666",
-    opaque_white = "#cccddd",
-    white        = "#ffffff",
-    dark_green   = "#00875f",
-    medium_green = "#007200",
-    bright_green = "#20de20",
-    blue         = "#0099f8",
-    yellow       = "#e5fb02",
-    red          = "#dc0000",
-    pink         = "#ff07ff",
-    teal         = "#367588",
+    black          = "#000000",
+    dark_grey      = "#252525",
+    light_grey     = "#666666",
+    opaque_white   = "#cccddd",
+    white          = "#ffffff",
+    dark_green     = "#00875f",
+    medium_green   = "#007200",
+    bright_green   = "#20de20",
+    blue           = "#0099f8",
+    yellow         = "#e5fb02",
+    red            = "#dc0000",
+    pink           = "#ff07ff",
+    teal           = "#367588",
+
+    bg_diff_add    = "#0a280a",
+    fg_diff_add    = "#94ba94",
+    bg_diff_change = "#2a2000",
+    fg_diff_change = "#b0ba9f",
+    bg_diff_remove = "#40160f",
+    fg_diff_remove = "#c6adaa",
 }
 
 oldschool.color_groups = function(p)
@@ -96,9 +103,22 @@ oldschool.color_groups = function(p)
         BlinkCmpSignatureHelpBorder           = { fg = p.bright_green },
 
         -- Gitsigns
-        GitSignsAdd                           = { fg = p.dark_green, bold = true },
-        GitSignsChange                        = { fg = p.yellow, bold = true },
-        GitSignsDelete                        = { fg = p.red, bold = true },
+        GitSignsAdd                           = { fg = p.fg_diff_add, bg = p.bg_diff_add, bold = true },
+        GitSignsChange                        = { fg = p.fg_diff_change, bg = p.bg_diff_change, bold = true },
+        GitSignsDelete                        = { fg = p.fg_diff_remove, bg = p.bg_diff_remove, bold = true },
+
+        GitSignsAddNr                         = { fg = p.fg_diff_add, bg = p.bg_diff_add, bold = true },
+        GitSignsChangeNr                      = { fg = p.fg_diff_change, bg = p.bg_diff_change, bold = true },
+        GitSignsDeleteNr                      = { fg = p.fg_diff_remove, bg = p.bg_diff_remove, bold = true },
+
+        GitSignsAddLn                         = { bg = p.bg_diff_add, bold = true },
+        GitSignsChangeLn                      = { bg = p.bg_diff_change, bold = true },
+        GitSignsDeleteLn                      = { bg = p.bg_diff_remove, bold = true },
+
+        GitSignsAddInline                     = { fg = p.fg_diff_add, bg = p.bg_diff_add, bold = true },
+        GitSignsChangeInline                  = { fg = p.fg_diff_change, bg = p.bg_diff_change, bold = true },
+        GitSignsDeleteInline                  = { fg = p.fg_diff_remove, bg = p.bg_diff_remove, bold = true },
+
         GitSignsCurrentLineBlame              = { fg = p.light_grey, bold = false },
 
         -- IndentBlankline
