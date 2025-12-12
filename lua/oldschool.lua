@@ -174,6 +174,9 @@ oldschool.color_groups = function(p)
         -- Elixir
         ["@string.special.symbol.elixir"]     = { fg = p.blue },
 
+        -- Gleam
+        ["@constructor.gleam"]                = { fg = p.blue },
+
         -- Haskell
         ["@constructor.haskell"]              = { fg = p.blue },
 
