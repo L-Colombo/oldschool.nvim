@@ -55,6 +55,8 @@ oldschool.color_groups = function(p)
         IncSearch                             = { fg = p.white, bg = p.teal },
         LineNr                                = { fg = p.bright_green },
         manBold                               = { fg = p.pink, bold = true },
+        manSectionHeading                     = { fg = p.red, bold = true },
+        manReference                          = { fg = p.medium_green, bold = true },
         MatchParen                            = { fg = p.black, bg = p.teal },
         ModeMsg                               = { fg = p.white, },
         MoreMsg                               = { fg = p.white, },
